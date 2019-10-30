@@ -6,7 +6,9 @@ namespace LeapYear
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Create a method called IsLeapYear().
+            // That method should accept a year as input.
+            // The output should be a boolean.
         }
     }
 }
