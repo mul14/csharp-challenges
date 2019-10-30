@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ObjectClass
 {
@@ -6,7 +6,13 @@ namespace ObjectClass
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Make this code works by create new class, method, and property.
+            Item item = new Item();
+            item.name = "Indomie Goreng";
+            item.price = 3500;
+            item.onSale = true; // If true the price will drop 20%
+
+            item.print(); // Output: "Indomie Goreng (Rp2800)"
         }
     }
 }
