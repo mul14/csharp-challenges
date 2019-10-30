@@ -6,7 +6,9 @@ namespace YourName
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Get your name by using Console.ReadLine()
+
+            Console.WriteLine("Hello, my name is {0}.");
         }
     }
 }
