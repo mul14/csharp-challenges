@@ -6,7 +6,12 @@ namespace FooBarBaz
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Create a loop from 1 to 1000.
+            // Each loop should print out a number.
+            // But, there is some criteria:
+            // 1) When the number multiplied by 5, the output will be "5. Foo".
+            // 2) When the number multiplied by 20, the output will be "40. Bar".
+            // 3) When the number multiplied by 100, the output will be "300. Baz".
         }
     }
 }
