@@ -6,7 +6,8 @@ namespace ToUpperCase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Create a progam that be able to
+            // transform all string into uppercase.
         }
     }
 }
