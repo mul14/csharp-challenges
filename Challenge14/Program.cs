@@ -6,7 +6,17 @@ namespace PalindromeDetector
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Please read the palindrome definition
+            IsPalindrome("ipsum"); // false
+            IsPalindrome("malam"); // true
+            IsPalindrome("tidur"); // false
+            IsPalindrome("kasur rusak"); // true
+            IsPalindrome("ibu ratna antar ubi"); // true
+        }
+
+        static bool IsPalindrome(string text)
+        {
+            return true;
         }
     }
 }
