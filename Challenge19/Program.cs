@@ -6,7 +6,8 @@ namespace Sorter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Create sorted numbers of points
+            int[] points = {2, 4, 54, 12, -65, 19, 40, 92, 88, 330, -4, 54};
         }
     }
 }
