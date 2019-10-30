@@ -6,7 +6,10 @@ namespace EvenOdd
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Create new method with ability to detect odd or even number.
+            // Example:
+            // IsOdd(4) // false
+            // IsEven(8) // true
         }
     }
 }
